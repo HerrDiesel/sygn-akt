@@ -1,0 +1,51 @@
+{
+  "name": "sygn-akt",
+  "version": "0.1.0-alpha",
+  "description": "Generate and read docket numbers (Polish legal citation). PL: Generuj i odczytuj sygnatury akt.",
+  "publishConfig": {
+    "tag": "latest"
+  },
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    
+    "package.json",
+    
+    "LICENSE",
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "exports":{
+    "import": "./index.js",
+    "default": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "legal",
+    "poland",
+    "legal-citation",
+    "court",
+    "court-cases",
+    "prawo",
+    "sygn-akt"
+  ],
+  "author": "@HerrDiesel",
+  "license": "MIT",
+  "repository": "https://github.com/HerrDiesel/sygn-akt",
+  "homepage": "https://github.com/HerrDiesel/sygn-akt",
+  "bugs": "https://github.com/HerrDiesel/sygn-akt/issues",
+  "devDependencies": {
+    "tape": "^5.6.0"
+  },
+  "dependencies": {}//,
+//  "pre-commit": [
+//    "test"
+//  ]
+//}
