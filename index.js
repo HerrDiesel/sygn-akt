@@ -10,16 +10,17 @@ const courts = {
 
 function read(sygn_akt, court){
     if(courts[court] !== undefined){
-        courts[court].read(sygn_akt);
+        return courts[court].read(sygn_akt);
     }
     else{
+        // cannot guarantee correct results
         recognize(sygn_akt);
     }
 }
 
 function recognize(sygn_akt){
-    // work in progress
+    // soon
 }
 
 // MODULE EXPORTS
-module.export.read = read;
+module.exports.read = read;
