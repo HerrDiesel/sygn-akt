@@ -3,6 +3,7 @@
 [![pl](https://img.shields.io/badge/lang-pl-white.svg)](https://github.com/HerrDiesel/sygn-akt/blob/main/README.pl.md)
 
 <!--
+[![NPMJS registry package version](https://img.shields.io/github/package-json/v/HerrDiesel/sygn-akt/npmjs?color=BB2E3E&label=latest+version)](https://npmjs.com/sygn-akt)
 [![Snyk Package Health Score](https://snyk.io/advisor/npm-package/sygn-akt/badge.svg?)](https://snyk.io/advisor/npm-package/sygn-akt)
 -->
 
