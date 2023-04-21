@@ -9,6 +9,12 @@
 
 Generate and read docket numbers (Polish legal citation).
 
+## What (kinda?) works for now
+- **Supreme Administrative Court** docket number:
+    - `generate()` function;
+    - `read()` function.
+
 ## Sources
 - https://sip.lex.pl/akty-prawne/dzienniki-resortowe/organizacja-i-zakres-dzialania-sekretariatow-sadowych-oraz-innych-35642426
+- https://bip.warszawa.wsa.gov.pl/272/zasady-biurowosci-w-sadach-administracyjnych.html
 - https://www.law.uj.edu.pl/~citations
