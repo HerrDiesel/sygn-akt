@@ -1,9 +1,9 @@
 {
   "name": "sygn-akt",
-  "version": "0.2.1-alpha",
+  "version": "0.2.2-alpha",
   "description": "Generate and read docket numbers (Polish legal citation). PL: Generuj i odczytuj sygnatury akt.",
   "publishConfig": {
-    "tag": "alpha"
+    "tag": "latest"
   },
   "main": "./index.js",
   "module": "./index.js",
