@@ -42,4 +42,16 @@ function read(input){
     return output;
 }
 
+function generate(division, chamber, repertorium, num, year){
+    year = year.toString();
+    if(year.length == 4){
+        year = year.substring(2);
+    }
+    else if(year.length !== 2){
+        throw new Error("wrong year format");
+    }
+    return division + " " + chamber + repertorium + " " + num + "/" + year;
+}
+
 module.exports.read = read;
+module.exports.generate = generate;

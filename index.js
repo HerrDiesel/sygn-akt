@@ -18,9 +18,12 @@ function read(sygn_akt, court){
     }
 }
 
+const generate = (court) => (...args) => courts[court].generate(...args);
+
 function recognize(sygn_akt){
     // soon
 }
 
 // MODULE EXPORTS
 module.exports.read = read;
+module.exports.generate = generate;
