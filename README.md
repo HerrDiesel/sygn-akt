@@ -7,7 +7,7 @@
 
 Generate and read docket numbers (Polish legal citation).
 
-## What (kinda?) works for now
+## What (kinda) works for now
 - generating docket numbers of:
     - the **Supreme Administrative Court** – `generate("NSA")(division, chamber, repertorium, number, year)`,
     - **district administrative courts** – `generate("WSA)(division, repertorium, city, number, year)`,
