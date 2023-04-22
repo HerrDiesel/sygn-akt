@@ -1,6 +1,6 @@
 {
   "name": "sygn-akt",
-  "version": "0.2.2-alpha",
+  "version": "0.3.0-alpha",
   "description": "Generate and read docket numbers (Polish legal citation). PL: Generuj i odczytuj sygnatury akt.",
   "publishConfig": {
     "tag": "latest"
@@ -13,9 +13,10 @@
     "index.d.ts",
     "roman_nums.js",
     "courts/js/nsa.js",
+    "courts/js/wsa.js",
 
     "package.json",
-
+    "courts/json/wsa.cities.json",
 
     "LICENSE",
     "README.md",
