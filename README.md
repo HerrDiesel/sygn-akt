@@ -15,7 +15,7 @@ Generate and read docket numbers (Polish legal citation).
 - reading docket numbers of:
     - the **Supreme Administrative Court** – `read("NSA")(docket_no)`,
     - **district administrative courts** – `read("WSA")(docket_no)`,
-    - the **Supreme Court** – `generate("SN")(division, repertorium, number, year)`.
+    - the **Supreme Court** – `read("SN")(sygn_akt)`.
 
 ## Sources
 - https://sip.lex.pl/akty-prawne/dzienniki-resortowe/organizacja-i-zakres-dzialania-sekretariatow-sadowych-oraz-innych-35642426
