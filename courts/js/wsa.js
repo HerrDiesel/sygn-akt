@@ -63,7 +63,7 @@ function generate(division, repertorium, city, num, year){
     if(year.length == 4){
         year = year.substring(2);
     }
-    else if(year.length !== 2){
+    else if(year.length != 2){
         throw new Error("wrong year format");
     }
 
