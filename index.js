@@ -1,13 +1,17 @@
 const courts = {
-    "NSA": require("./courts/js/nsa.js"),
-    "WSA": require("./courts/js/wsa.js"),
+    "NSA": require("./courts/js/nsa.js"), // Supreme Administrative Court
+    "WSA": require("./courts/js/wsa.js"), // District Administrative Court
 
-    "SN": require("./courts/js/sn.js"),
-    "SA": require("./courts/js/sa.js"),
-    "SO": require("./courts/js/so.js"),
-    "SR": require("./courts/js/sr.js")
+    "SN": require("./courts/js/sn.js"), // Supreme Court – Sąd Najwyższy
+    "SA": require("./courts/js/sa.js"), // Court of Appeals – Sąd Apelacyjny
+    "SO": require("./courts/js/so.js"), // District Court - Sąd Okręgowy
+    "SR": require("./courts/js/sr.js"), // Sąd Rejonowy
+
+    "TK": require("./courts/js/tk.js"), // Constitutional Tribunal - Trybunał Konstytucyjny
+    "TS": require("./courts/js/ts.js") // State Tribunal - Trybunał Stanu
 };
 
+// READ() FUNCTION
 function read(sygn_akt, court){
     if(courts[court] !== undefined){
         return courts[court].read(sygn_akt);
@@ -18,6 +22,7 @@ function read(sygn_akt, court){
     }
 }
 
+// GENERATE() FUNCTION
 const generate = (court) => (...args) => courts[court].generate(...args);
 
 function recognize(sygn_akt){
