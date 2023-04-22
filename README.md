@@ -7,6 +7,9 @@
 
 Generate and read docket numbers (Polish legal citation).
 
+Generuj i odczytuj sygnatury akt.
+
+
 ## What (kinda) works for now
 - generating docket numbers of:
     - the **Supreme Administrative Court** – `generate("NSA")(division, chamber, repertorium, number, year)`,
