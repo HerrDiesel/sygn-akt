@@ -12,8 +12,8 @@ Generuj i odczytuj sygnatury akt.
     - **Naczelnego Sądu Administracyjnego** – `generate("NSA")(wydział, izba, repertorium, nr, rok)`,
     - **wojewódzkich sądów administracyjnych** – `generate("WSA)(wydział, repertorium, miasto, nr, rok)`;
 - odczytywanie sygnatur akt:
-    - **Naczelnego Sądu Administracyjnego** – `read("NSA", sygn_akt)`,
-    - **wojewódzkich sądów administracyjnych**  – `read("WSA", sygn_akt)`.
+    - **Naczelnego Sądu Administracyjnego** – `read("NSA"(sygn_akt)`,
+    - **wojewódzkich sądów administracyjnych**  – `read("WSA")(sygn_akt)`.
 
 ## Źródła
 - https://sip.lex.pl/akty-prawne/dzienniki-resortowe/organizacja-i-zakres-dzialania-sekretariatow-sadowych-oraz-innych-35642426
