@@ -5,13 +5,13 @@ function read(input){
     let output = {};
     output.chamber = {};
     let sygn_akt = input.split(" ");
-    
+
+    // Parse everything
     if(isRoman(sygn_akt[0]) == true){
         output.division = sygn_akt[0];
         sygn_akt.shift();
     }
-
-    // Parse everything
+    
     output.chamber.abbr = sygn_akt[0];
     output.chamber.abbr = output.chamber.abbr.substring(0, 1);
 
