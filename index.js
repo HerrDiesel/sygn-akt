@@ -12,15 +12,7 @@ const courts = {
 };
 
 // READ() FUNCTION
-function read(sygn_akt, court){
-    if(courts[court] !== undefined){
-        return courts[court].read(sygn_akt);
-    }
-    else{
-        // cannot guarantee correct results
-        recognize(sygn_akt);
-    }
-}
+const read = (court) => (...args) => courts[court].read(...args);
 
 // GENERATE() FUNCTION
 const generate = (court) => (...args) => courts[court].generate(...args);

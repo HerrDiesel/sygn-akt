@@ -1,10 +1,10 @@
 const { isRoman } = require("./../../roman_nums.js");
 
 // READ() FUNCTION
-function read(input){
+function read(sygn_akt){
     let output = {};
     output.chamber = {};
-    let sygn_akt = input.split(" ");
+    sygn_akt = sygn_akt.split(" ");
 
     // Parse everything
     if(isRoman(sygn_akt[0]) == true){

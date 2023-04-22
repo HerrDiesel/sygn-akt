@@ -1,8 +1,8 @@
 // READ() FUNCTION
-function read(input){
+function read(sygn_akt){
     let output = {};
     output.city = {};
-    let sygn_akt = input.split(" ");
+    sygn_akt = sygn_akt.split(" ");
 
     // Parse everything
     output.division = sygn_akt[0];
