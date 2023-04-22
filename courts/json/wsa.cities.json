@@ -1,81 +1,81 @@
 [
     {
-      "abbv": "Bk",
+      "abbr": "Bk",
       "pl_name": "Białystok",
       "en_name": "Bialystok"
     },
     {
-      "abbv": "Bd",
+      "abbr": "Bd",
       "pl_name": "Bydgoszcz",
       "en_name": "Bydgoszcz"
     },
     {
-      "abbv": "Gd",
+      "abbr": "Gd",
       "pl_name": "Gdańsk",
       "en_name": "Gdansk"
     },
     {
-      "abbv": "Gl",
+      "abbr": "Gl",
       "pl_name": "Gliwice",
       "en_name": "Gliwice"
     },
     {
-      "abbv": "Go",
+      "abbr": "Go",
       "pl_name": "Gorzów Wielkopolski",
       "en_name": "Gorzow Wielkopolski"
     },
     {
-      "abbv": "Ke",
+      "abbr": "Ke",
       "pl_name": "Kielce",
       "en_name": "Kielce"
     },
     {
-      "abbv": "Kr",
+      "abbr": "Kr",
       "pl_name": "Kraków",
       "en_name": "Cracow"
     },
     {
-      "abbv": "Lu",
+      "abbr": "Lu",
       "pl_name": "Lublin",
       "en_name": "Lublin"
     },
     {
-      "abbv": "Łd",
+      "abbr": "Łd",
       "pl_name": "Łódź",
       "en_name": "Lodz"
     },
     {
-      "abbv": "Ol",
+      "abbr": "Ol",
       "pl_name": "Olsztyn",
       "en_name": "Olsztyn"
     },
     {
-      "abbv": "Op",
+      "abbr": "Op",
       "pl_name": "Opole",
       "en_name": "Opole"
     },
     {
-      "abbv": "Po",
+      "abbr": "Po",
       "pl_name": "Poznań",
       "en_name": "Poznan"
     },
     {
-      "abbv": "Rz",
+      "abbr": "Rz",
       "pl_name": "Rzeszów",
       "en_name": "Rzeszow"
     },
     {
-      "abbv": "Sz",
+      "abbr": "Sz",
       "pl_name": "Szczecin",
       "en_name": "Szczecin"
     },
     {
-      "abbv": "Wa",
+      "abbr": "Wa",
       "pl_name": "Warszawa",
       "en_name": "Warsaw"
     },
     {
-      "abbv": "Wr",
+      "abbr": "Wr",
       "pl_name": "Wrocław",
       "en_name": "Wroclaw"
     }
