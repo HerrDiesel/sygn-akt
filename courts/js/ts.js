@@ -1,3 +1,3 @@
-require("./../../roman_nums.js").isRoman;
+const { isRoman } = require("./../../roman_nums.js");
 
 // soon

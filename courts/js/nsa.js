@@ -1,4 +1,4 @@
-isRoman = require("./../../roman_nums.js").isRoman;
+const { isRoman } = require("./../../roman_nums.js");
 
 // READ() FUNCTION
 function read(input){
