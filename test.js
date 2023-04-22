@@ -49,3 +49,27 @@ test("should correctly generate a WSA docket number", t => {
     t.looseEqual(actual, "I SAB/Wa 778/22");
     t.end();
 })
+
+// sn.js
+test("should correctly read the provided SN docket number (year 1984)", t => {
+    const actual = syg.read("SN")("II KZP 420/84");
+    t.looseEqual(actual.year, 1984);
+    t.end();
+});
+
+test("should correctly read the provided SN docket number", t => {
+    const actual = syg.read("SN")("I NSNc 420/84");
+    t.looseEqual(actual.division, "I");
+    t.looseEqual(actual.repertorium, "NSNc");
+    t.looseEqual(actual.chamber.en_name, "Extraordinary Control and Public Affairs");
+    t.looseEqual(actual.chamber.pl_name, "Kontroli Nadzwyczajnej i Spraw Publicznych");
+    t.looseEqual(actual.num, "420");
+    t.looseEqual(actual.year, 1984);
+    t.end();
+});
+
+test("should correctly generate a SN docket number", t => {
+    const actual = syg.generate("SN")("I", "NSNk", 420, 1969);
+    t.strictEqual(actual, "I NSNk 420/69");
+    t.end();
+});
