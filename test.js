@@ -3,22 +3,19 @@ const syg = require("./index.js");
 
 // nsa.js
 test("should correctly read the provided NSA docket number (year 1984)", t => {
-    const actual = syg.read("GSK 1997/84", "NSA");
-    t.looseEqual(actual.chamber.abbr, "G");
-    t.looseEqual(actual.chamber.en_name, "Commercial");
-    t.looseEqual(actual.chamber.pl_name, "Gospodarcza");
-    t.looseEqual(actual.num, "1997");
+    const actual = syg.read("NSA")("II GSK 1184/84");
     t.looseEqual(actual.year, 1984);
     t.end();
 });
 
-test("should correctly read the provided NSA docket number (year 2023)", t => {
-    const actual = syg.read("GSK 1997/23", "NSA");
+test("should correctly read the provided NSA docket number", t => {
+    const actual = syg.read("NSA")("II GSK 1184/21");
+    t.looseEqual(actual.division, "II");
     t.looseEqual(actual.chamber.abbr, "G");
     t.looseEqual(actual.chamber.en_name, "Commercial");
     t.looseEqual(actual.chamber.pl_name, "Gospodarcza");
-    t.looseEqual(actual.num, "1997");
-    t.looseEqual(actual.year, 2023);
+    t.looseEqual(actual.num, "1184");
+    t.looseEqual(actual.year, 2021);
     t.end();
 });
 
@@ -27,3 +24,28 @@ test("should correctly generate a NSA docket number", t => {
     t.strictEqual(actual, "I OSK 1997/23");
     t.end();
 });
+
+// wsa.js
+test("should correctly read the provided WSA docket number (year 1984)", t => {
+    const actual = syg.read("WSA")("II SAB/Wa 778/84");
+    t.looseEqual(actual.year, 1984);
+    t.end();
+});
+
+test("should correctly read the provided WSA docket number", t => {
+    const actual = syg.read("WSA")("II SAB/Wa 778/22");
+    t.looseEqual(actual.division, "II");
+    t.looseEqual(actual.repertorium, "SAB");
+    t.looseEqual(actual.city.abbr, "Wa");
+    t.looseEqual(actual.city.pl_name, "Warszawa");
+    t.looseEqual(actual.city.en_name, "Warsaw");
+    t.looseEqual(actual.num, "778");
+    t.looseEqual(actual.year, 2022);
+    t.end();
+});
+
+test("should correctly generate a WSA docket number", t => {
+    const actual = syg.generate("WSA")("I", "SAB", "Warsaw", 778, 2022);
+    t.looseEqual(actual, "I SAB/Wa 778/22");
+    t.end();
+})
