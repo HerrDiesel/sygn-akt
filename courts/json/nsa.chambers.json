@@ -1,0 +1,17 @@
+[
+    {
+        "abbr": "G",
+        "pl_name": "Gospodarcza",
+        "en_name": "Commercial"
+    },
+    {
+        "abbr": "F",
+        "pl_name": "Finansowa",
+        "en_name": "Financial"
+    },
+    {
+        "abbr": "O",
+        "pl_name": "Ogólnoadministracyjna",
+        "en_name": "General Administrative"
+    }
+]

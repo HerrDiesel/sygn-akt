@@ -37,20 +37,10 @@ function read(sygn_akt){
     }
 
     // Identify chamber
-    switch(output.chamber.abbr){
-        case "G":
-            output.chamber.en_name = "Commercial";
-            output.chamber.pl_name = "Gospodarcza";
-            break;
-        case "F":
-            output.chamber.en_name = "Financial";
-            output.chamber.pl_name = "Finansowa";
-            break;
-        case "O":
-            output.chamber.en_name = "General Administrative";
-            output.chamber.pl_name = "Ogólnoadministracyjna";
-            break;
-    }
+    const chambers = require("../json/nsa.chambers.json");
+
+    output.chamber.en_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["en_name"];
+    output.chamber.pl_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["pl_name"];
 
     return output;
 }
@@ -59,22 +49,17 @@ function read(sygn_akt){
 function generate(division, chamber, repertorium, num, year){
     // Identify chamber
     if(chamber.length != 1){
-        switch(chamber){
-            case "Gospodarcza":
-            case "Commercial":
-                chamber = "G";
-                break;
-            case "Financial":
-            case "Finansowa":
-                chamber = "F";
-                break;
-            case "General Administrative":
-            case "Ogólnoadministracyjna":
-            case "GA":
-                chamber = "O";
-                break;
-            default:
-                throw new Error("incorrect chamber identifier");
+        const chambers = require("../json/nsa.chambers.json");
+        if(chambers.find(ch => ch.en_name === chamber) === undefined){
+            if(chambers.find(ch => ch.pl_name === chamber) === undefined){
+                throw new Error("wrong chamber identifier");
+            }
+            else{
+                chamber = chambers.find(ch => ch.pl_name === chamber)["abbr"]; 
+            }
+        }
+        else{
+            chamber = chambers.find(ch => ch.en_name === chamber)["abbr"];
         }
     }
 
