@@ -10,10 +10,12 @@ Generate and read docket numbers (Polish legal citation).
 ## What (kinda?) works for now
 - generating docket numbers of:
     - the **Supreme Administrative Court** – `generate("NSA")(division, chamber, repertorium, number, year)`,
-    - **district administrative courts** – `generate("WSA)(division, repertorium, city, number, year)`;
+    - **district administrative courts** – `generate("WSA)(division, repertorium, city, number, year)`,
+    - the **Supreme Court** – `generate("SN")(division, repertorium, number, year)`;
 - reading docket numbers of:
     - the **Supreme Administrative Court** – `read("NSA")(docket_no)`,
-    - **district administrative courts** – `read("WSA")(docket_no)`.
+    - **district administrative courts** – `read("WSA")(docket_no)`,
+    - the **Supreme Court** – `generate("SN")(division, repertorium, number, year)`.
 
 ## Sources
 - https://sip.lex.pl/akty-prawne/dzienniki-resortowe/organizacja-i-zakres-dzialania-sekretariatow-sadowych-oraz-innych-35642426
