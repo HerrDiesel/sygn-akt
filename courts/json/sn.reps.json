@@ -1,0 +1,461 @@
+[
+    {
+        "rep_name": "CSK",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CSKP",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CNP",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CNPP",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CZP",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CZ",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CA",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CN",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CB",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CBO",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+    {
+        "rep_name": "CO",
+        
+        "ch_abbr": "C",
+        "ch_pl_name": "Cywilna",
+        "ch_en_name": "Civil"
+    },
+
+    {
+        "rep_name": "KK",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KZP",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KZ",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KS",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KA",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KB",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KBO",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+    {
+        "rep_name": "KO",
+        
+        "ch_abbr": "K",
+        "ch_pl_name": "Karna",
+        "ch_en_name": "Criminal"
+    },
+
+    {
+        "rep_name": "PSK",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PSKP",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PZ",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PA",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PN",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "USKP",
+        
+        "ch_abbr": "U",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "UZ",
+        
+        "ch_abbr": "U",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "UA",
+        
+        "ch_abbr": "U",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "UN",
+        
+        "ch_abbr": "U",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PZP",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "UZP",
+        
+        "ch_abbr": "U",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PUNP",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PUNPP",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PUB",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PUBO",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+    {
+        "rep_name": "PUO",
+        
+        "ch_abbr": "P",
+        "ch_pl_name": "Pracy i Ubezpieczeń Społecznych",
+        "ch_en_name": "Labour and Social Security"
+    },
+
+    {
+        "rep_name": "NSK",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NSKP",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NSNk",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NSNc",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NZP",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NP",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NPP",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NZ",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NSW",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NSP",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NKRS",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NWW",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NB",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NBO",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+    {
+        "rep_name": "NO",
+        
+        "ch_abbr": "N",
+        "ch_pl_name": "Kontroli Nadzwyczajnej i Spraw Publicznych",
+        "ch_en_name": "Extraordinary Control and Public Affairs"
+    },
+
+    {
+        "rep_name": "ZSK",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZOW",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZK",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZSG",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZPI",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZI",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZIZ",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZPU",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZPUA",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZZP",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZZ",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZW",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZB",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZBO",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    },
+    {
+        "rep_name": "ZO",
+
+        "ch_abbr": "Z",
+        "ch_pl_name": "Odpowiedzialności Zawodowej",
+        "ch_en_name": "Professional Responsibility"
+    }
+]
