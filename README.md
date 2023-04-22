@@ -7,7 +7,7 @@
 
 Generate and read docket numbers (Polish legal citation).
 
-Generuj i odczytuj sygnatury akt.
+[Generuj i odczytuj sygnatury akt.](https://github.com/HerrDiesel/sygn-akt/blob/main/README.pl.md)
 
 
 ## What (kinda) works for now
