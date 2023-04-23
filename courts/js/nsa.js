@@ -1,3 +1,4 @@
+const chambers = require("../json/nsa.chambers.json");
 const { isRoman } = require("./../../roman_nums.js");
 
 // READ() FUNCTION
@@ -14,6 +15,9 @@ function read(sygn_akt){
     
     output.chamber.abbr = sygn_akt[0];
     output.chamber.abbr = output.chamber.abbr.substring(0, 1);
+     // Identify chamber
+     output.chamber.en_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["en_name"];
+     output.chamber.pl_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["pl_name"];
 
     output.repertorium = sygn_akt[0];
     output.repertorium = output.repertorium.substring(1);
@@ -36,12 +40,6 @@ function read(sygn_akt){
         throw new Error("wrong year format");
     }
 
-    // Identify chamber
-    const chambers = require("../json/nsa.chambers.json");
-
-    output.chamber.en_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["en_name"];
-    output.chamber.pl_name = chambers.find(ch => ch.abbr === output.chamber.abbr)["pl_name"];
-
     return output;
 }
 
@@ -49,7 +47,6 @@ function read(sygn_akt){
 function generate(division, chamber, repertorium, num, year){
     // Identify chamber
     if(chamber.length != 1){
-        const chambers = require("../json/nsa.chambers.json");
         if(chambers.find(ch => ch.en_name === chamber) === undefined){
             if(chambers.find(ch => ch.pl_name === chamber) === undefined){
                 throw new Error("wrong chamber identifier");

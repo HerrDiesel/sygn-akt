@@ -1,3 +1,5 @@
+const reps = require("../json/sn.reps.json");
+
 // READ() FUNCTION
 function read(sygn_akt){
     let output = {};
@@ -6,6 +8,8 @@ function read(sygn_akt){
     output.division = sygn_akt[0];
 
     output.repertorium = sygn_akt[1];
+    // Validate repertorium
+    if(reps.find(ch => ch.rep_name === output.repertorium) === undefined) throw new Error("repertorium validation failed");
 
     output.num = sygn_akt[2];
     output.num = output.num.split("/")[0];
@@ -26,8 +30,6 @@ function read(sygn_akt){
     }
 
     // Identify chamber
-    const reps = require("../json/sn.reps.json");
-
     output.chamber = {};
     output.chamber.en_name = reps.find(ch => ch.rep_name === output.repertorium)["ch_en_name"];
     output.chamber.pl_name = reps.find(ch => ch.rep_name === output.repertorium)["ch_pl_name"];
@@ -38,8 +40,6 @@ function read(sygn_akt){
 // GENERATE() FUNCTION
 function generate(division, repertorium, num, year){
     // Validate repertorium
-    const reps = require("../json/sn.reps.json");
-
     if(reps.find(ch => ch.rep_name === repertorium) === undefined) throw new Error("repertorium validation failed");
     
     // Change year format
@@ -50,7 +50,7 @@ function generate(division, repertorium, num, year){
     else if(year.length != 2){
         throw new Error("wrong year format");
     }
-
+    
     return division + " " + repertorium + " " + num + "/" + year;
 }
 

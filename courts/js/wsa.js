@@ -1,3 +1,5 @@
+const cities = require("../json/wsa.cities.json");
+
 // READ() FUNCTION
 function read(sygn_akt){
     let output = {};
@@ -32,8 +34,6 @@ function read(sygn_akt){
     }
 
     // Identify the city
-    const cities = require("../json/wsa.cities.json");
-
     output.city.en_name = cities.find(c => c.abbr === output.city.abbr)["en_name"];
     output.city.pl_name = cities.find(c => c.abbr === output.city.abbr)["pl_name"];
 
@@ -44,7 +44,6 @@ function read(sygn_akt){
 function generate(division, repertorium, city, num, year){
     // Identify the city
     if(city.length != 2){
-        const cities = require("../json/wsa.cities.json");
         if(cities.find(c => c.en_name === city) === undefined){
             if(cities.find(c => c.pl_name === city) === undefined){
                 throw new Error("wrong city identifier");
