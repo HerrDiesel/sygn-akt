@@ -11,11 +11,13 @@ Generuj i odczytuj sygnatury akt.
 - generowanie sygnatur akt:
     - **Naczelnego Sądu Administracyjnego** – `generate("NSA")(wydział, izba, repertorium, nr, rok)`,
     - **wojewódzkich sądów administracyjnych** – `generate("WSA)(wydział, repertorium, miasto, nr, rok)`,
-    - **Sądu Najwyższego** – `generate("SN")(wydział, repertorium, nr, rok)`;
+    - **Sądu Najwyższego** – `generate("SN")(wydział, repertorium, nr, rok)`,
+    - **Trybunału Konstytucyjnego** – `generate("TK")(repertorium, nr, rok)`;
 - odczytywanie sygnatur akt:
     - **Naczelnego Sądu Administracyjnego** – `read("NSA"(sygn_akt)`,
     - **wojewódzkich sądów administracyjnych**  – `read("WSA")(sygn_akt)`,
-    - **Sądu Najwyższego** – `read("SN")(sygn_akt)`.
+    - **Sądu Najwyższego** – `read("SN")(sygn_akt)`,
+    - **Trybunału Konstytucyjnego** – `read("TK")(sygn_akt)`.
 
 ## Źródła
 - https://sip.lex.pl/akty-prawne/dzienniki-resortowe/organizacja-i-zakres-dzialania-sekretariatow-sadowych-oraz-innych-35642426
