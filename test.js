@@ -73,3 +73,24 @@ test("should correctly generate a SN docket number", t => {
     t.strictEqual(actual, "I NSNk 420/69");
     t.end();
 });
+
+// tk.js
+test("should correctly read the provided TK docket number (year 1986)", t => {
+    const actual = syg.read("TK")("K 1/86");
+    t.looseEqual(actual.year, 1986);
+    t.end();
+});
+
+test("should correctly read the provided TK docket number", t => {
+    const actual = syg.read("TK")("K 1/20");
+    t.looseEqual(actual.repertorium, "K");
+    t.looseEqual(actual.num, "1");
+    t.looseEqual(actual.year, 2020);
+    t.end();
+});
+
+test("should correctly generate a TK docket number", t => {
+    const actual = syg.generate("TK")("K", 1, 2020);
+    t.strictEqual(actual, "K 1/20");
+    t.end();
+});
