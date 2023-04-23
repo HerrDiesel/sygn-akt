@@ -8,7 +8,6 @@ const courts = {
     "SR": require("./courts/js/sr.js"), // Sąd Rejonowy
 
     "TK": require("./courts/js/tk.js"), // Constitutional Tribunal - Trybunał Konstytucyjny
-    "TS": require("./courts/js/ts.js") // State Tribunal - Trybunał Stanu
 };
 
 // READ() FUNCTION
