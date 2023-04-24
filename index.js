@@ -3,9 +3,9 @@ const courts = {
     "WSA": require("./courts/js/wsa.js"), // District Administrative Court
 
     "SN": require("./courts/js/sn.js"), // Supreme Court – Sąd Najwyższy
-    "SA": require("./courts/js/sa.js"), // Court of Appeals – Sąd Apelacyjny
-    "SO": require("./courts/js/so.js"), // District Court - Sąd Okręgowy
-    "SR": require("./courts/js/sr.js"), // Sąd Rejonowy
+    //"SA": require("./courts/js/sa.js"), // Court of Appeals – Sąd Apelacyjny
+    //"SO": require("./courts/js/so.js"), // District Court - Sąd Okręgowy
+    //"SR": require("./courts/js/sr.js"), // Sąd Rejonowy
 
     "TK": require("./courts/js/tk.js"), // Constitutional Tribunal - Trybunał Konstytucyjny
 };
