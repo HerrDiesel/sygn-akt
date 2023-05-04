@@ -1,6 +1,6 @@
 {
   "name": "sygn-akt",
-  "version": "0.6.0-alpha",
+  "version": "0.7.0-alpha",
   "description": "Generate and read docket numbers (Polish legal citation). PL: Generuj i odczytuj sygnatury akt.",
   "publishConfig": {
     "tag": "latest"
@@ -47,7 +47,7 @@
     "sygn-akt"
   ],
   "author": "@HerrDiesel",
-  "license": "MIT",
+  "license": "CC0 1.0",
   "repository": "https://github.com/HerrDiesel/sygn-akt",
   "homepage": "https://github.com/HerrDiesel/sygn-akt",
   "bugs": "https://github.com/HerrDiesel/sygn-akt/issues",
