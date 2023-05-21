@@ -1,6 +1,6 @@
 {
   "name": "sygn-akt",
-  "version": "0.7.0-alpha",
+  "version": "0.7.1-alpha",
   "description": "Generate and read docket numbers (Polish legal citation). PL: Generuj i odczytuj sygnatury akt.",
   "publishConfig": {
     "tag": "latest"
