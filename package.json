@@ -15,7 +15,7 @@
     "courts/js/nsa.js",
     "courts/js/wsa.js",
     "courts/js/sn.js",
-    "court/js/tk.js",
+    "courts/js/tk.js",
 
     "package.json",
     "courts/json/wsa.cities.json",
